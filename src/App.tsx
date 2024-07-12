@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import { AirlineAppContext } from './context/airline-context'
 import { AirlineData, Api } from './api/airline'
-import Landingpage from './components/landingpage'
+import Landingpage from './components/Landingpage'
 
 function App() {
   const [airline, setAirline] = useState<AirlineData[]>([])
